@@ -48,6 +48,10 @@ body {
   padding: 20px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.096);
   z-index: 999;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
 }
 
 .navbar .container {
