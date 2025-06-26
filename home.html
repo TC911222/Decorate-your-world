@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Paint Website</title>
+  <link rel="stylesheet" href="home.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <div class="logo-container">
+        <img src="painwebimg/painting-logo.png" alt="logo" />
+      </div>
+      <div class="main-menu">
+        <ul>
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#">Gallery</a>
+          </li>
+          <li>
+            <a href="#">Service</a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-phone-volume"></i>Contact Us</a>
+          </li>
+        </ul>
+      </div>
+  
+      <!-- Hamburger button -->
+      <button class="hamburger-button .open">
+        <div class="hamburger-line"></div>
+        <div class="hamburger-line"></div>
+        <div class="hamburger-line"></div>
+      </button>
+      <div class="mobile-menu">
+        <ul>
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#">Gallery</a>
+          </li>
+          <li>
+            <a href="#">Service</a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-phone-volume"></i>Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--     <header class="header1">
+      <div class="header-container">
+        <div class="logo-container">
+          <img src="painwebimg/painting-logo.png" alt="logo" />
+        </div>
+       <nav class="nav-container">
+        <ul class="first-ul">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="about.html">About</a>
+          </li>
+          <li>
+            <a href="gallery.html">Gallery</a>
+          </li>
+          <li>
+            <a href="service.html">Service</a>
+          </li>
+          <li>
+            <a href="#">Contact Us</a>
+          </li>
+        </ul>
+        </nav>
+      </div>
+    </header> -->
+  <!-- HEADER2 -->
+
+<!--   <header class="header2">
+    <div class="logo-container">
+      <img src="painwebimg/painting-logo.png" alt="logo" />
+    </div>
+    <button class="hamburger-button">
+      <div class="hamburger-line"></div>
+      <div class="hamburger-line"></div>
+      <div class="hamburger-line"></div>
+    </button> -->
+    <!-- hamburger-button -->
+ <!--    <div class="hamburger-menu">
+
+      <nav class="nav-containe">
+        <ul>
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="about.html">About</a>
+          </li>
+          <li>
+            <a href="gallery.html">Gallery</a>
+          </li>
+          <li>
+            <a href="service.html">Service</a>
+          </li>
+        </ul>
+        <div class="contact-container">
+          <a href="#" class="contact-first">Contact us</a>
+        </div>
+      </nav>
+    </div>
+    </div>
+  </header> -->
+
+
+  <!-- SECTION-HERO -->
+
+  <section class="hero">
+    <div class="container">
+      <div class="hero-text">
+        <h1>Decorate Your World With Colors</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, <br> luctus nec ullamcorper mattis,
+          pulvinar dapibus leo.
+        </p>
+      </div>
+      <div class="hero-button">
+        <button class="btn-hero">Discover more</button>
+        <button class="btn-hero started">Get Started</button>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="hero-grid">
+    <div class="container">
+      <div><img src="painwebimg/pexels-max-vakhtbovych-6489092.jpg" alt="Our paint" loading="lazy"></div>
+      <div><img src="painwebimg/pexels-max-vakhtbovych-6899449.jpg" alt="Our paint" loading="lazy"></div>
+      <div><img src="painwebimg/pexels-max-vakhtbovych-7005284.jpg" alt="Our paint" loading="lazy"></div>
+      <div><img src="painwebimg/pexels-max-vakhtbovych-7005294.jpg" alt="Our paint" loading="lazy"></div>
+      <div><img src="painwebimg/pexels-max-vakhtbovych-7031616.jpg" alt="Our paint" loading="lazy"></div>
+      <div><img src="painwebimg/pexels-max-vakhtbovych-81463311.jpg" alt="Our paint" loading="lazy"></div>
+    </div>
+  </section>
+
+  <!-- CONTACT US -->
+  <section class="contact">
+    <div class="container">
+      <!-- items 1 -->
+      <div class="contact-items">
+        <i class="fa-solid fa-envelope"></i>
+        <div>
+          <p>Email US</p>
+          <p>example@painting.site</p>
+        </div>
+      </div>
+      <!-- items 2 -->
+      <div class="contact-items">
+        <i class="fa-solid fa-phone"></i>
+        <div>
+          <p>Call Us</p>
+          <p>+(123) 456 7891</p>
+        </div>
+      </div>
+      <!-- items 3 -->
+      <div class="contact-items">
+        <i class="fa-solid fa-calendar-days"></i>
+        <div>
+          <p>We are open</p>
+          <p><time datetime="08:00">8:00am</time> - <time datetime="06:00">6:00pm</time></p>
+        </div>
+      </div>
+      <!-- items 4 -->
+      <div class="contact-items">
+        <i class="fa-solid fa-location-dot"></i>
+        <div>
+          <p>Location</p>
+          <p>Manhattan Beach, CA</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY CHOOOSE US -->
+
+  <section class="why-chooseus">
+    <div class="container-choose">
+      <img src="painwebimg/pexels-blue-bird-7217972.jpg" alt="Our work" loading="lazy">
+      <div class="why-choose-text-container">
+        <p class="choose-us text-center">
+          Why choose us
+        </p>
+        <h2 class="text-center">
+          We Help You For Making Your Dream Painting
+        </h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, <br> luctus nec ullamcorper mattis,
+          pulvinar dapibus leo. Sit amet massa vitae tortor.
+        </p>
+        <ul>
+          <li>
+            <i class="fas fa-check"></i> Flexible scheduling options
+
+          <li>
+            <i class="fas fa-check"></i>Eco-friendly & clean work area
+
+          <li>
+            <i class="fas fa-check"></i>Free color consultation
+          </li>
+        </ul>
+        <button>
+          Read more
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+
+  <section class="services">
+    <div class="our-service-container container">
+      <div class="service-main-heading">
+      <p class="text-center">
+        Our Services
+      </p>
+      <h2 class="text-center">
+        Efficient And Reliable Painting Services
+      </h2>
+    </div>
+
+      <!-- ITEM 1 -->
+      <div class="services-grid">
+          <!-- ITEM 1 -->
+        <div class="grid-items">
+          <i class="fas fa-industry service-icon"></i>
+          <h3>
+            Commercial Painting
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur elit.
+          </p>
+        </div>
+
+        <!-- ITEM 2 -->
+
+        <div class="grid-items">
+          <i class="fas fa-paint-brush service-icon"></i>
+          <h3>
+            Residential Painting
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur elit.
+          </p>
+        </div>
+
+        <!-- ITEM 3 -->
+        <div class="grid-items">
+          <i class="fas fa-border-all service-icon"></i>
+          <h3>
+            Interior Painting
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur elit.
+          </p>
+        </div>
+
+        <!-- ITEM 4 -->
+        <div class="grid-items">
+          <i class="fas fa-warehouse service-icon"></i>
+          <h3>
+            exterior painting
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur elit.
+          </p>
+        </div>
+
+        <!-- ITEM 5 -->
+        <div class="grid-items">
+          <i class="fas fa-layer-group service-icon"></i>
+          <h3>
+            Stucco & Brick Painting
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur elit.
+          </p>
+        </div>
+
+        <!-- ITEM 6 -->
+        <div class="grid-items">
+          <i class="fas fa-border-all service-icon"></i>
+          <h3>
+            Deck & Arbor Staining
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur elit.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Our Progress -->
+
+  <section class="progress">
+    <div class="container">
+      <div class="progress-flex">
+        <div>
+          <p class="text-center">Our process</p>
+          <h2 class="text-center">We Offer Residential & Commercial Painting Services</h2>
+        </div>
+        <div>
+          Urna condimentum mattis pellentesque id nibh tortor id. Phasellus vestibulum lorem sed risus. Erat nam at
+          lectus urna duis convallis. Ridiculus mus mauris vitae ultricies leo integer. Commodo nulla facilisi nullam
+          vehicula ipsum.
+        </div>
+      </div>
+
+      <div class="progress-grid">
+        <!-- item 1 -->
+        <div class="grid-items">
+          <h3 class="text-center">
+            Consultations With
+            Our Experts
+          </h3 class="text-center">
+          <p class="progress-paragraph">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+          <p class="progress-position">Step 1</p>
+        </div>
+        <!-- item 2 -->
+        <div class="grid-items">
+          <h3 class="text-center">
+            Consultations With
+            Our Experts
+          </h3>
+          <p class="progress-paragraph">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+          <p class="progress-position">Step 2</p>
+        </div>
+        <!-- item 3 -->
+        <div class="grid-items">
+          <h3>
+            Consultations With
+            Our Experts
+          </h3>
+          <p class="progress-paragraph">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+          <p class="progress-position">Step 3</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- APPOINMENT -->
+
+  <section class="appointment-section">
+    <div class="container appointment-container">
+        <div class="appointment-text-content">
+            <p class="section-subheading">Make An Appointment</p>
+            <h2 class="section-heading">Do You Need A Professional Painter? Fill Out This Form To Get In Touch.</h2>
+            <p class="section-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
+                mattis, pulvinar dapibus leo. Sit amet massa vitae tortor.
+            </p>
+
+            <div class="appointment-details">
+                <div class="detail-item">
+                    <p class="detail-label">Every day from</p>
+                    <p class="detail-value">8:00 <span class="to-separator">—</span> 6:00</p>
+                </div>
+                <div class="detail-item">
+                    <p class="detail-label">Call to ask any question</p>
+                    <p class="detail-value phone-number">+(123) 456 7891</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="appointment-form-wrapper">
+            <form id="appointmentForm" class="appointment-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" />
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email: <span class="required-star">*</span></label>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required />
+                        <span class="error-message"></span>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" />
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Service</label>
+                        <select id="service" name="service">
+                            <option value="">Select Service:</option>
+                            <option value="commercial">Commercial Painting</option>
+                            <option value="residential">Residential Painting</option>
+                            <option value="interior">Interior Painting</option>
+                            <option value="exterior">Exterior Painting</option>
+                            <option value="stucco">Stucco & Brick Painting</option>
+                            <option value="deck">Deck & Arbor Staining</option>
+                        </select>
+                        <span class="error-message"></span>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="date-time">Date & Time:</label>
+                        <input type="datetime-local" id="date-time" name="date-time" />
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="location">Location:</label>
+                        <input type="text" id="location" name="location" placeholder="Your Location" />
+                        <span class="error-message"></span>
+                    </div>
+                </div>
+
+                <div class="form-group full-width">
+                    <label for="message">Message: <span class="required-star">*</span></label>
+                    <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                    <span class="error-message"></span>
+                </div>
+
+                <button type="submit" class="btn-submit">Confirm Appointment</button>
+                <div id="form-global-error" class="global-error-message">
+                    Please fix the errors to proceed.
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER-LINKS -->
+
+<section class="footer-link">
+  <div class="container">
+    <div>
+      <img src="painwebimg/painting-logo.png" alt="logo" />
+      <p class="first">
+        Lorem ipsum dolor sit amet, consectetur adipiscing <br> elit, sed do eiusmod tempor incididunt  <br> labore et dolore magna aliqua. Lacus sed viverra tellus.
+      </p>
+    </div>
+    <div>
+      <h3>
+        OUR SERVICES
+      </h3>
+      <p class="items">Commercial Painting</p>
+      <p class="items">Residential Painting</p>
+      <p class="items">Interior Painting</p>
+      <p class="items">Exterior Painting</p>
+    </div>
+    <div>
+      <h3>
+        USEFUL LINKS
+      </h3>
+      <p class="items">Company</p>
+      <p class="items">Latest Jobs</p>
+      <p class="items">Partners</p>
+      <p class="items">Blog post</p>
+    </div>
+    <div>
+      <h3>INFORMATION</h3>
+      <P class="items"><a href="about.html" class="info-link">About</a></P>
+      <P class="items"><a href="contact.html" class="info-link">Contact</a></P>
+      <P class="items"><a href="gallery.html" class="info-link">Gallery</a></P>
+      <P class="items"><a href="#" class="info-link">Pricing</a></P>
+    </div>
+  </div>
+</section>
+
+
+<!-- COPPYWRITE -->
+
+<section class="copywrite-section">
+<div class="container">
+  <p class="text-center"> &copy; 2025 Painting-site - TC Dev </p>
+  <div>
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-instagram"></i>
+  </div>
+</div>
+</section>
+
+<script src="index.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
