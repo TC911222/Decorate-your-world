@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <body>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo-container">
+                    <img src="painwebimg/painting-logo.png" alt="logo" />
+                </div>
+                <div class="main-menu">
+                    <ul>
+                        <li>
+                            <a href="/">Home</a>
+                        </li>
+                        <li>
+                            <a href="about.html">About</a>
+                        </li>
+                        <li>
+                            <a href="gallery.html">Gallery</a>
+                        </li>
+                        <li>
+                            <a href="#">Service</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fas fa-phone-volume"></i>Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Hamburger button -->
+                <button class="hamburger-button .open">
+                    <div class="hamburger-line"></div>
+                    <div class="hamburger-line"></div>
+                    <div class="hamburger-line"></div>
+                </button>
+                <div class="mobile-menu">
+                    <ul>
+                        <li>
+                            <a href="/">Home</a>
+                        </li>
+                        <li>
+                            <a href="about.html">About</a>
+                        </li>
+                        <li>
+                            <a href="gallery.html">Gallery</a>
+                        </li>
+                        <li>
+                            <a href="#">Service</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fas fa-phone-volume"></i>Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- HERO -->
+
+        <section class="c-contact">
+            <h1>Get in toch with us</h1>
+        </section>
+
+       <!-- C CONTACT -->
+
+
+        <section class="appointment-section">
+            <div class="container appointment-container">
+                <div class="appointment-text-content">
+                    <p class="section-subheading">Make An Appointment</p>
+                    <h2 class="section-heading">Do You Need A Professional Painter? Fill Out This Form To Get In Touch.</h2>
+                    <p class="section-description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
+                        mattis, pulvinar dapibus leo. Sit amet massa vitae tortor.
+                    </p>
+        
+                    <div class="appointment-details">
+                        <div class="detail-item">
+                            <p class="detail-label">Every day from</p>
+                            <p class="detail-value">8:00 <span class="to-separator">—</span> 6:00</p>
+                        </div>
+                        <div class="detail-item">
+                            <p class="detail-label">Call to ask any question</p>
+                            <p class="detail-value phone-number">+(123) 456 7891</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="appointment-form-wrapper">
+                    <form id="appointmentForm" class="appointment-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Name:</label>
+                                <input type="text" id="name" name="name" placeholder="Your Name" />
+                                <span class="error-message"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email: <span class="required-star">*</span></label>
+                                <input type="email" id="email" name="email" placeholder="Your Email" required />
+                                <span class="error-message"></span>
+                            </div>
+                        </div>
+        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">Phone Number:</label>
+                                <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" />
+                                <span class="error-message"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="service">Service</label>
+                                <select id="service" name="service">
+                                    <option value="">Select Service:</option>
+                                    <option value="commercial">Commercial Painting</option>
+                                    <option value="residential">Residential Painting</option>
+                                    <option value="interior">Interior Painting</option>
+                                    <option value="exterior">Exterior Painting</option>
+                                    <option value="stucco">Stucco & Brick Painting</option>
+                                    <option value="deck">Deck & Arbor Staining</option>
+                                </select>
+                                <span class="error-message"></span>
+                            </div>
+                        </div>
+        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="date-time">Date & Time:</label>
+                                <input type="datetime-local" id="date-time" name="date-time" />
+                                <span class="error-message"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="location">Location:</label>
+                                <input type="text" id="location" name="location" placeholder="Your Location" />
+                                <span class="error-message"></span>
+                            </div>
+                        </div>
+        
+                        <div class="form-group full-width">
+                            <label for="message">Message: <span class="required-star">*</span></label>
+                            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                            <span class="error-message"></span>
+                        </div>
+        
+                        <button type="submit" class="btn-submit">Confirm Appointment</button>
+                        <div id="form-global-error" class="global-error-message">
+                            Please fix the errors to proceed.
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER-LINKS -->
+
+        <section class="footer-link">
+            <div class="container">
+                <div>
+                    <img src="painwebimg/painting-logo.png" alt="logo" />
+                    <p class="first">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing <br> elit, sed do eiusmod tempor incididunt
+                        <br> labore et
+                        dolore magna aliqua. Lacus sed viverra tellus.
+                    </p>
+                </div>
+                <div>
+                    <h3>
+                        OUR SERVICES
+                    </h3>
+                    <p class="items">Commercial Painting</p>
+                    <p class="items">Residential Painting</p>
+                    <p class="items">Interior Painting</p>
+                    <p class="items">Exterior Painting</p>
+                </div>
+                <div>
+                    <h3>
+                        USEFUL LINKS
+                    </h3>
+                    <p class="items">Company</p>
+                    <p class="items">Latest Jobs</p>
+                    <p class="items">Partners</p>
+                    <p class="items">Blog post</p>
+                </div>
+                <div>
+                    <h3>INFORMATION</h3>
+                    <P class="items"><a href="about.html" class="info-link">About</a></P>
+                    <P class="items"><a href="contact.html" class="info-link">Contact</a></P>
+                    <P class="items"><a href="gallery.html" class="info-link">Gallery</a></P>
+                    <P class="items"><a href="#" class="info-link">Pricing</a></P>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- COPPYWRITE -->
+
+        <section class="copywrite-section">
+            <div class="container">
+                <p class="text-center"> &copy; 2025 Painting-site - TC Dev </p>
+                <div>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+        </section>
+
+        <script src="index.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+    </body>
+
+</html>
